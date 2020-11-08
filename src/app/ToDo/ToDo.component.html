@@ -1,0 +1,10 @@
+<input type="text" placeholder="enter your text here..." [value]="newItem" (change)="onChangeHandler($event)" />
+&nbsp;
+<button (click)="onClickHandler($event)">Add</button>
+<ul *ngIf="lists.length > 0">
+  <li *ngFor="let list of lists" >
+    {{list.value}}
+    <button (click)="deleteItemHandler($event , list.id)"><i [id]="list.id">x</i></button>
+  </li>
+ 
+</ul>

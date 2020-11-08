@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-ToDoList"
+    }
+  },
+  "defaultProject": "angular-ToDoList",
+  "cli": {
+    "analytics": false
+  }
 }
