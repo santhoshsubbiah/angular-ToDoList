@@ -1,2 +1,2 @@
 # angular-ToDoList
-This is angular project
+This is angular project.
